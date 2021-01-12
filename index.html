@@ -1,406 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<link rel="icon" href="./Images/medium-2-189729.png">
-	<title>Wase</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wase</title>
+
+    <!-- Bootstrap CSS CDN  -->
+    <!-- You can Replace it with Local File on /assets/css/bootstrap.css -->
+    <!-- Uncomment the line below .... -->
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
 
-<body text="black">
-	<table cellpadding="5" cellspacing="1" width="100%" bgcolor="lightgray">
-
-		<!-- Navigation Bar -->
-		<td bgcolor="white">
-           <nav> 
-              |<a href="index.html">HOME</a>|&nbsp;&nbsp;&nbsp;
-              |<a href="#about">ABOUT ME</a>| &nbsp;&nbsp;&nbsp;
-              |<a href="#family">FAMILY</a>| &nbsp;&nbsp;&nbsp;
-              |<a href="#favorites">FAVORITES</a>| &nbsp;&nbsp;&nbsp;
-              |<a href="#school">SCHOOL_LIFE</a>| &nbsp;&nbsp;&nbsp;
-              |<a href="#videos">VIDEOS</a>| &nbsp;&nbsp;&nbsp;
-              |<a href="#contact">CONTACT</a>| &nbsp;&nbsp;&nbsp;
-           </nav>
-       </td>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-       <!-- Contact Links -->
-       <td bgcolor="white">
-       		&nbsp;&nbsp;&nbsp;&nbsp;
-       		<a href="https://www.instagram.com/wasihundangura17/?hl=en" target="_blank"><img src="./Images/instagram-68-189802.png" width="20px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-       		<a href="https://web.telegram.org/#/im?p=@Divacx" target="_blank"><img src="./Images/telegram-app.png" width="20px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-       		<a href="https://www.facebook.com/wasihun.dangura.5" target="_blank"><img src="./Images/facebook-72-189788.png" width="20px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-       		<a href="https://www.linkedin.com/in/wasihun-dangura-3797b318a/" target="_blank"><img src="./Images/linkedin-48-189774.png" width="20px"></a>
-       </td>
-	</table>
-
-	<!-- HOME -->
-	<div id="home">
-	<table width="100%">
-		<tr>
-		<td bgcolor="white" width="50%">
-			<b>
-			<big>
-			<pre width="100%">
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
 
 
+    <div class="upper container-fluid justify-content-center">
 
-						Vectors are created to carry  pathogens, themselves  causing  no 
-						disease, but pathogens are creared to cause and transmit disease. 
-						
+        <!-- Adding Navigation  -->
+        <nav class="navbar navbar-expand-md navbar-dark bg-transparent sticky-top mynav">
 
-
-						This is the difference, some are  born to carry what  others and 
-						the situations loaded them to carry, while few are born to cause
-						something and to move the nation to thier destiny.
-						
+            <!--  Adding a Logo o=n the left corner -->
 
 
-						"Lion  is not the  tallest, largest, heaviest, biggest, and most 
-						intellegent  animal in the  jungle, yet he's king  over  all the 
-						animals. What  makes him king?  It's it the way he  sees himself
-						and the  world. You don't need to be  big, smart, or intellegent,
-						tall, heavy  or have  something  else  to  influence the world."
-						 						<i>Dr.Myles Munroe</i>.
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+            <!-- Adding Collapse Target Div  -->
+            <div class="collapse navbar-collapse" id="colNav">
 
 
-						It is the  way you see  yourself, and the world  that  makes you
-						either  king , slave  or simple. Having  good  sight  by  itself 
-						cannot make you influential, but  how do you see, is it with eye
-						glass or bare eye? The type  of glass affects the appreanance of 
-						things. 
+                <!--  right sided navigation items  -->
+
+                <ul class="navbar-nav additional">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Favorites</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">hope</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                    </li>
+
+                </ul>
 
 
-						In advance, you  can use microscope, and telescope to see what is 
-						invisible  for  humaneyes  so, how  and  through  what  you   see 
-						determines your influence.
+                <!-- To the left side side  -->
+                <ul class="navbar-nav ml-auto ">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-fw fa-facebook text-white "></i> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-fw fa-telegram text-white "></i> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fa fa-fw fa-phone text-white "></i> </a>
+                    </li>
+
+                </ul>
+
+            </div>
 
 
-	    </pre>
-		</big>
-		</b>
-		</td>
-			</tr>
-	</table>
-	</div>
+        </nav>
 
-	<!-- ABOUT ME-->
-	<div id="about">
-	<table>
-		<tr>
-			<td width="60%" bgcolor="#efefef">
-				<pre width="60%">
-				<b>
-				<big>
-
-		I am Wasiun Dangura. I was born in Jan 1st of 1999 G.C at a small town
-		near  Hawassa, the capital  of South Nations, and Nationalities (SNNP), 
-		from my father Dangura Tontone, and Edilnesh Hailu. I'm the last child 
-		of the  family. This  in turn helped  me to grow by gathering a lot of 
-		experience  from my  older brothers, and sisters. It also  directed my 
-		parents focus to be up on me.
-
-
-		After  my mother  was passed  away, at my 3rd, taking  care for me and
-		immediate  older brothers  was left to  our sisters and elder brothers. 
-		Then  we were  moved to  Hawassa hoping  for a better  education there
-		,at my 7th, where I continued a better schooling.
-
-
-		I'm good at  social life, that's why most of my academic background is
-		full of group works and helping each other. I believe on the qoute "If
-		you  wanna go fast, go alone. But if you wanna  go farther go together
-		." I'm also good at helping my families and household activities, like
-		cooking, baking, cleaning  the house, nursing  babies... I'm also nice
-		on my community life like  negotiating, counseling, obedience,... This
-		in turn build a good  profile to me among the community even though it
-		was not my motive for doing so.
-
-
-		I believe that everything is possible and any situation can be changed.
-		I believe on God  almighty that's why I believe on possiblity. Current
-		situation, and reality  may be a direct opposite of what I believe and
-		hope for, but it  will be changed. Actually, reality  is almost always 
-		against the vision of someone. Here is a saying, "A rever cuts through
-		a rock  not because of its  strength, but because of its persistance."
-
-
-		Leading a nation from darkness to ligth, bondage to freedom, astray to
-		their destiny, which is their path, ... is what I am living for. I am 
-		also one among those who believe in visitation of Ethiopia. 
-
-		Right now, I'm just preparing myself for my destiny, the purpose for 
-		which I'm living and determined to die.
-
-
-				</big>
-			    </b>
-			    </pre>
-			</td>
-			<td width="40%" bgcolor="#efefef">
-				<a href="self.html" target="_blank"><img src="./Images/wase.jpg"></a>
-			</td>
-		</tr>
-	</table>
-	</div>
-
-	<!-- FAMILY -->
-	<div id="family">
-	<table width="100%" bgcolor="lightgray">
-		<tr>
-			<td bgcolor="white" align="center">
-				<big>*****************************************************************<h1 align="center">|My Beloved Family|</h1>*****************************************************************</big> 
-			</td>
-		</tr>
-	</table>
-	<table width="100%" cellpadding="10" cellspacing="10" bgcolor="#efefef">
-		<tr>
-			<th><a href="bfamily.html" target="_blank"><img src="./Images/tame.jpg" width="100%" alt="Tamagn"></a></th>
-			<th><a href="bfamily.html" target="_blank"><img src="./Images/fitse.jpg" width="100%" alt="Fitsum"></a></th>
-			<th><a href="bfamily.html" target="_blank"><img src="./Images/demu.jpg" width="100%" alt="Demoze"></a></th>
-		</tr>
-		<tr>
-			<th><a href="bfamily.html" target="_blank"><img src="./Images/deru.jpg" width="100%" alt="Dereje"></a></th>
-			<th><a href="bfamily.html" target="_blank"><img src="./Images/ki.jpg" width="100%" alt="Hiwot"></a></th>
-			<th><a href="bfamily.html" target="_blank"><img src="./Images/Holi.jpg" width="100%" alt="Holy"></a></th>
-		</tr>
-
-	</table>
-	<br>
-	<table align="center" bgcolor="#efefef" width="50">
-		<tr>
-		<th width="100%" align="center" bgcolor="#ededed"><a href="#home"><img src="./Images/upp.png" width="100px" alt="Back to Home"><br>
-			
-		</a></th>
-		</tr>
-	</table>
-	<table width="100%" bgcolor="#ffffff">
-		<td width="100%" align="center" bgcolor="#ffffff"><big><h1>
-			 I really praise my LORD to have such influentials beside me!<br>
-			______________________________________________________________
-		</h1></big></td>
-	</table>
-	</div>
-
-	<!-- FAVORITES-->
-	<div id="favorites">
-	<table>
-		<tr>
-			<th><a href="family.html" target="_blank"><img src="./Images/SPD.jpg" width="100%" alt="Dadi"></a></th>
-			<th><a href="family.html" target="_blank"><img src="./Images/BE.jpg" width="100%" alt="Sister"></a></th>
-			<th><a href="family.html" target="_blank"><img src="./Images/nahi.jpg" width="100%" alt="Brother"></a></a></th>
-			<th><a href="family.html" target="_blank"><img src="./Images/nati.jpg" width="100%" alt="Brother"></a></th>
-		</tr>
-	</table>
-
-<table>
-	<tr>
-	<th><pre align="center">
-	My Spiritual Father, Abraham Kareso. 
-	He is a lawyer and graduate from 
-	Hawassa Universtiy.
-	</pre></th>
-	<th><pre align="center">
-		My sister, Betelihem Tsegaye. 
-		She is studying computer science 
-		in China.</pre></th>
-			
-	<th><pre align="center">
-		My brother, Nahom. He is a lawyer
-		working in Addis and graduate from 
-		Hawassa University.</pre></th>
-	<th><pre align="center">
-		My brother, Natinael. He is working in Hawassa 
-		Industrial Park and graduate from Hawassa 
-		University.</pre></th>
-		</tr>
-	</table>
-	</div>
-
-	<!-- SCHOOL-LIFE -->
-	<div id="school">
-	<table width="100%" bgcolor="#eeeeee">
-		<tr>
-		<td bgcolor="#eeeeee" width="50%">
-			<b>
-			<big>
-			<pre width="100%">
-
-
-
-	My schooling traces its background to Bensa where I joined local
-	school. I moved  to Hawassa where I  continued my education with 
-	more and better opportunity.  
-	
-
-	I learned at Rehobot Kindergarten, until my 3rd, then I attended 
-	my  remaining class, until my 10th, at Hayole  Education project. 
-	My schooling summed up at Debub Ethiopia Academy.
-	
-
-	I was committed to my study since the very beginning of my class,
-	this may be  because of the influence of my brothers and sisters. 
-	I  was a rank  student, meaning  from KG to  12, I  had a lot of 
-	certificates and rewards.
-
-
-	I  participated in  different  school  clubs, like  theatre  and
-	literature, sport...and also I served as school president, civic
-	ambassador, team orginizer and motivator...   
-
-
-	I also participate in christian student fellowships, it's a group
-	of students who worship God together. I had an amazing time in it, 
-	specially during my stay  at Debub Ethiopia Academy (11th & 12th). 
-	There God helped us a lot. He transformed us, changed our toughts,
-	insights, and  revealed us our visions. I  discovered my personal 
-	destiny  there by the help of  God. I saw  true love,  friendship, 
-	fellowship...there. Thanks to the LORD.
-
-
-
-	    </pre>
-		</big>
-		</b>
-		</td>
-		<td width="50%" align="center" bgcolor="#eeeeee"><a href="schoolgallery.html" target="_blank"><img src="./Images/culday.jpg" width="60%"></a></td>
-		</tr>
-
-		<tr>
-	<td width="50%" align="center" bgcolor="#eeeeee">
-		<a href="schoolgallery.html" target="_blank">
-			<iframe width="600" height="400" src="https://www.youtube.com/embed/JLHmqSgNAGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</a><br>
-			<p>Press the pause/play button, to play the video<br>
-			 unless it leads you to more videos</p>
-		</td>
-	<td bgcolor="#eeeeee" width="50%">
-			<b>
-			<big>
-			<pre width="100%">
-
-
-	At school, we  spent unforgottable time. We were happy, unified, 
-	helping each other, ... Everybody contributed for such thing to
-	come unto us.   
-	
-
-	When I was  school president, I tried to equip students with not
-	only discpline, even though  this was the major issue during the
-	time to school  adminstratives, but also facilitating team study
-	to support those who  need academic  help and to enhance insight
-	of high achievers. 
-
-
-	After graduated from Debub  Ethiopia Academy, grade 12, I joined
-	Addis Ababa UNiversity, Amist Kilo Campus, Addis Ababa Institute
-	of  Technology. Now, I am a  second  year  Software  Engineering 
-	student.
-
-
-
-
-	    </pre>
-		</big>
-		</b>
-		</td>
-		</tr>
-	</table>
-	</div>
-
-	<!-- VIDEOS-->
-	<div id="videos">
-	<table width="100%" bgcolor="#eeeeee">
-		<tr>
-			<td bgcolor="efefef" align="center">
-				<big>*****************************************************************<h1 align="center">|My Favorite Videos|</h1>*****************************************************************</big> 
-			</td>
-		</tr>
-		<tr>
-			<td width="100%" bgcolor="#eeeeee">
-				<big><h1 align="center">______</h1></big>
-			</td>
-		</tr>
-		<tr>
-			<td width="100%" align="center" bgcolor="#efefef">
-				<pre width="100%"><h2 align="center">This are videos that influenced me directly or indirectly.</h2></pre>
-			<br>
-			<br>
-			</td>
-		</tr>
-		</table>
-		<table cellspacing="20" cellpadding="0" bgcolor="#eeeeee"  width="100%">
-			<td width="50%" align="center">
-				<iframe width="500" height="300" src="https://www.youtube.com/embed/QJQtILWBJQc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</td>
-			<td width="50%" align="center">
-				<iframe width="500" height="300" src="https://www.youtube.com/embed/DZCYY7coH7k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</td>
-		</tr>
-	</table>
-	</div>
-
-	<!-- CONTACT-->
-	<div id="contact">
-	<table width="100%" bgcolor="#efefef" id="contact" cellspacing="10" cellpadding="10">
-		<tr>
-		<th width="50%" bgcolor="#eeeeee" align="center">
-		<big>
-		<pre>
-		
-	<h2>
-CONTACT ME</h2>										
-	  ____
-Here  I put  an alternative  way to
-contact me beside emailing me.
-
-Most  of the time I am  available on
-telegram. So, I  advice  the one who
-want to communicate me to communicate
-me through it.
-
-Here is the link,...
-						
-		</pre>
-		</big>
-		</th>
-		
-	<th width="40%" align="left" bgcolor="#efefef">
-	
-<form method="POST" action="mailto:wasedangura@gmail.com" target="_blank" enctype="utf-8">
-&nbsp;&nbsp;&nbsp;&nbsp;<label for="fname">	First Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="fname" id="fname" size="40" maxlength="30" required="" pattern="[a-zA-Z]{4,15}" title="Name must be 4-15 character!"><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;<label for="lname">	Last Name:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="lname" id="lname" size="40" maxlength="30" required="" pattern="[a-zA-Z]{4,15}" title="Name must be 4-15 character!"><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;<label for="fname">	Email:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="Email" id="Email" size="40" required=""><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;<label for="tele">Telephone:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="tel" name="tele" id="tele" placeholder=" 012 345 6789 like format" size="40" required="" pattern="\d{3}[ ]\d{3}[ ]\d{4}" title="Make sure the space after numbers!"><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label for="address">Comment:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea rows="5" cols="38" name="address" id="address"></textarea><br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="Submit" size="10" align="left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset" size="10">
-
-	</form>	
-	</th>
-	
-	</table>
-	<table bgcolor="#ffffff" align="center">
-	<th align="center" bgcolor="#ffffff"><a href="#home"><img src="./Images/uppp.png" width="20%" align="center"></td>	
-	</table>
-	<table align="center" cellpadding="10">
-		<td bgcolor="white" align="center">
-       		<a href="https://www.instagram.com/wasihundangura17/?hl=en" target="_blank"><img src="./Images/instagram-68-189802.png" width="20px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-       		<a href="https://web.telegram.org/#/im?p=@Divacx" target="_blank"><img src="./Images/telegram-app.png" width="20px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-       		<a href="https://www.facebook.com/wasihun.dangura.5" target="_blank"><img src="./Images/facebook-72-189788.png" width="20px"></a>&nbsp;&nbsp;&nbsp;&nbsp;
-       		<a href="https://www.linkedin.com/in/wasihun-dangura-3797b318a/" target="_blank"><img src="./Images/linkedin-48-189774.png" width="20px"></a>
-       </td>
-	</table>
-	<hr width="30%" align="center"> 
-	</div>
-	<table bgcolor="crimson" width="100%" align="center">
-		<th bgcolor="white" align="center">
-			<p>|&copy; 2020 Wasihun Dangura| </p><br>
-			<hr width="30%" align="center">
-		</th>
-	</table>
-
+</div>
 </body>
-</html>	
+</html>
