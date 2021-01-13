@@ -1,0 +1,235 @@
+a:hover {
+    border-top: 1px solid crimson;
+    border-bottom: 1px solid blue;
+    transition: ease-in-out 1s;
+}
+
+.upper {
+    height: 500px;
+    background-image: url("nature.jpg");
+}
+
+.column1 {
+    background-color: rgb(255, 105, 25);
+    text-align: center;
+    color: white;
+}
+
+#column1 {
+    background-image: url("sewa.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+#columntext1 {
+    background-color: rgb(255, 105, 25);
+    font-size: 1.4rem;
+    text-align: center !important;
+    padding: 50px 30px;
+    color: white;
+}
+
+#column2 {
+    background-image: url("vision.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+#columntext2 {
+    background-color: rgb(255, 105, 25);
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 40px 30px;
+}
+
+#columntext3 {
+    background-color: rgb(255, 105, 25);
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 40px 30px;
+}
+
+#columnlast {
+    background-image: url("books.jpg");
+    background-size: cover;
+    height: 700px;
+}
+
+.column2 {
+    background-image: url("sewa.jpg");
+    background-size: cover;
+}
+
+.column3 {
+    background-image: url("sewa.jpg");
+    background-size: cover;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.middle {
+    background-color: rgba(5, 5, 5, 0.4);
+}
+
+.columntext {
+    padding-top: 25%;
+    padding: 20%;
+    font-size: 20px;
+}
+
+.hidden {
+    width: 300px;
+    padding-top: 40px;
+}
+
+.contacttext {
+    font-size: 20px;
+    margin: 5% 20%;
+}
+
+#hidden {
+    width: 300px;
+    border-radius: 100%;
+    padding-top: 40px;
+}
+
+#hidden1 {
+    width: 300px;
+    padding-top: 40px;
+    border-radius: 100%;
+}
+
+#hidden3 {
+    width: 300px;
+    padding-top: 40px;
+}
+
+.horizontal {
+    display: block;
+    width: 5%;
+    position: absolute;
+    left: 47%;
+}
+
+.mybtn {
+    display: block;
+    width: 15%;
+    position: absolute;
+    left: 42%;
+    color: white;
+    border-color: white;
+    font-size: 20px;
+}
+
+.final {
+    background-color: rgb(255, 105, 25);
+}
+
+.toup {
+    width: 3%;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    margin-left: 47%;
+}
+
+.uparrow {
+    width: 100%;
+}
+
+.borderright {
+    border-right: 1px solid gray;
+}
+
+span {
+    border-left: 1px solid gray;
+    padding: 2px;
+}
+
+@media (min-width: 768px) {
+    .hidden {
+        display: none;
+    }
+    .hidden {
+        display: contents;
+    }
+}
+
+@media (min-width: 768px) {
+    #hidden {
+        display: none;
+    }
+    #hidden {
+        display: contents;
+    }
+}
+
+@media (min-width: 768px) {
+    #hidden1 {
+        display: none;
+    }
+    #hidden1 {
+        display: contents;
+    }
+}
+
+@media (min-width: 768px) {
+    #hidden3 {
+        display: none;
+    }
+    #hidden3 {
+        display: contents;
+    }
+}
+
+@media (max-width: 768px) {
+    .column2 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .column3 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #column1 {
+        display: none;
+    }
+    #column1 {
+        display: contents;
+    }
+}
+
+@media (max-width: 768px) {
+    #columnlast {
+        display: none;
+    }
+    #columnlast {
+        display: contents;
+    }
+}
+
+@media (max-width: 768px) {
+    #column2 {
+        display: none;
+    }
+    #column2 {
+        display: contents;
+    }
+}
+
+@media (max-width: 768px) {
+    #column3 {
+        display: none;
+    }
+    #column3 {
+        display: contents;
+    }
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
